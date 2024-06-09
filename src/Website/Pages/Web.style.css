@@ -1,0 +1,118 @@
+.profile{
+    margin-top:20px;
+    color: grey;
+    text-align: left;
+    background-color: #e2e8f0;    
+}
+.main-body {
+    padding: 15px;
+}
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+}
+
+
+
+
+    .card {
+    border: none
+    }
+    .product {
+    background-color: #eee
+    }
+    .brand {
+    font-size: 13px
+    }
+    .act-price {
+    color: red;
+    font-weight: 700
+    }
+    .dis-price {
+    text-decoration: line-through
+    }
+    .about {
+    font-size: 14px
+    }
+    .color {
+    margin-bottom: 10px
+    }
+    label.radio {
+    cursor: pointer
+    }
+    label.radio input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    pointer-events: none
+    }
+    label.radio span {
+    padding: 2px 9px;
+    border: 2px solid #ff0000;
+    display: inline-block;
+    color: #ff0000;
+    border-radius: 3px;
+    text-transform: uppercase
+    }
+    label.radio input:checked+span {
+    border-color: #ff0000;
+    background-color: #ff0000;
+    color: #fff
+    }
+    .btn-danger {
+    background-color: #ff0000 !important;
+    border-color: #ff0000 !important
+    }
+    .btn-danger:hover {
+    background-color: #da0606 !important;
+    border-color: #da0606 !important
+    }
+    .btn-danger:focus {
+    box-shadow: none
+    }
+    .cart i {
+    margin-right: 10px
+    }
+    .hover:hover{
+        border: solid 1px #00D9A5;
+    }
+
+    .product_card:hover{
+    transform: scale(1.10);
+    }
+    .product_card{
+        transition: all 0.3s;
+    }
+    .product_card1:hover{
+    transform: scale(0.90);
+    
+    }
+    .product_card1{
+        transition: all 0.3s;
+    }
+
+    .product_name{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+        overflow: hidden;
+    }
+    
